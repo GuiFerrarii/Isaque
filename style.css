@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    background: linear-gradient(#231637,#0E121B);
+    overflow-x: hidden ;
+    min-height: 100vh;
+}
+header
+{
+    font-size: 18px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100000;
+}
+
+header #ff{
+    font-size: 18px;
+    position: relative;
+    left: 450px;
+    display: flex;
+    justify-content: space-between; 
+    z-index: 100000;
+    top: 69px;
+}
+
+
+ .logo
+{
+    color: rgba(255, 255, 255, 0.849);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    left: 99px;
+    top: 60px;
+
+}
+
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+section::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+   
+    z-index: 1000;
+}
+ 
+section #sec3 
+{
+    background-color: aqua;
+}
+
+
+header ul
+{
+    display: flex;
+    font-size: 18px;
+  
+    align-items: center;
+    position: relative;
+    left: 12px;
+    top: 27px;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #786496;
+    
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+
+}
+
+
+
+
+
+
+
+.chackbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 40px;
+    position: relative;
+}
+
+.chackbox {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    transition: 400ms ease-in-out 0s;
+}
+
+.chackbox .trace {
+    width: 50px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.849);
+    position: absolute;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+   
+}
+
+.chackbox .trace:nth-child(1) {
+    top: 26px;
+    transform: rotate(0);
+}
+
+.chackbox .trace:nth-child(2) {
+    top: 46px;
+    transform: rotate(0);
+}
+
+.chackbox .trace:nth-child(3) {
+    top: 66px;
+    transform: rotate(0);
+}
+
+#toogle {
+    display: none;
+}
+
+.menu {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    background-color: transparent;
+    height: 4px;
+    width: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px #524564;
+    z-index: 1;
+    transition: 400ms ease-in-out 0s;
+}
+
+.menu-itens {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms ease-in-out 0s;
+}
+
+.menu-itens ul {
+    list-style-type: none;
+}
+
+.menu-itens ul li a {
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.671);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+#toogle:checked+.chackbox .trace:nth-child(1) {
+    transform: rotate(45deg);
+    top: 47px;
+}
+
+#toogle:checked+.chackbox .trace:nth-child(2) {
+    transform: translate(-100px);
+    width: 30px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#toogle:checked+.chackbox .trace:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 48px;
+}
+
+#toogle:checked+.chackbox {
+    background-color: #3e2e57;
+}
+
+#toogle:checked~.menu {
+    box-shadow: 0px 0px 0px 100vmax #3e2e57;
+    z-index: 1;
+}
+
+#toogle:checked~.menu-itens {
+    visibility: visible;
+    opacity: 1;
+}
