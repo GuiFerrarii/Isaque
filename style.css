@@ -9,42 +9,39 @@
 }
 body
 {
-    background: linear-gradient(#231637,#0E121B);
+    background: linear-gradient(#1e152c,#0E121B);
     overflow-x: hidden ;
     min-height: 100vh;
+    
 }
 header
 {
     font-size: 18px;
-    position: absolute;
+    position: absolute; 
     display: flex;
     justify-content: space-between;
     z-index: 100000;
 }
 
+#sec2{
+    font-size: 110px;
+    color: #786496;
+}
+
+#sec3{
+    font-size: 110px;
+    color: #786496;
+}
+
 header #ff{
     font-size: 18px;
     position: relative;
-    left: 450px;
+    left: 422px;
     display: flex;
     justify-content: space-between; 
     z-index: 100000;
-    top: 69px;
+    top: 57px;
 }
-
-.Isaque img{
-    max-width:100px;
-    max-height:70px;
-    width: auto;
-    height: auto;
-    padding: 20px;
-    position: relative;
-}
-
-   
-   
-  
-
 
 
  .logo
@@ -85,11 +82,40 @@ section::before
    
     z-index: 1000;
 }
- 
-section #sec3 
-{
-    background-color: aqua;
+
+.foto{
+    position: absolute;
+    width: 403.93px;
+    height: 450.03px;
+    left: 445.54px;
+    top: 250px;
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 10px;
+    
 }
+
+.pb{
+    position: absolute;
+    width: 403.93px;
+    height: 450.03px;
+    left: 385.54px;
+    top: 303px;
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE */
+    
+}
+ 
+ 
+
 
 
 header ul
@@ -115,23 +141,76 @@ header ul li a
     
 }
 
-header ul
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ret{
+    width: 277px;
+    height: 80px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    position: absolute;
+    left: 1545px;
+    top: 800px;
 }
-header ul li
-{
-    list-style: none;
-    margin-left: 20px;
-}
-header ul li a
-{
-    text-decoration: none;
-    padding: 6px 15px;
 
+.ret2{
+    position: absolute;
+    width: 147px;
+    height: 33px;
+    left: 1443px;
+    top: 822px;
+    background: #D0B5DD;
+    border-radius: 15px;
 }
+.ret2 p{
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+.ico{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1629px;
+    top: 824px;  
+}
+
+.ico2{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1691px;
+    top: 824px;  
+}
+   
+.ico3{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1750px;
+    top: 824px;  
+}
+
+.p{
+    position: absolute;
+    width: 890.41px;
+    height: 191.8px;
+    left: 769.59px;
+    top: 202px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 125px;
+    line-height: 152px;
+    color: #FFFFFF;
+    transform: matrix(0.93, 0, -0.43, 1, 0, 0);
+}
+   
+
+    
+
+
+
 
 
 
@@ -159,6 +238,7 @@ header ul li a
     z-index: 999;
     transition: 400ms ease-in-out 0s;
 }
+
 
 .chackbox .trace {
     width: 50px;
@@ -196,8 +276,8 @@ header ul li a
     background-color: transparent;
     height: 4px;
     width: 10px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px #524564;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 0px #15111b;
     z-index: 1;
     transition: 400ms ease-in-out 0s;
 }
@@ -248,11 +328,11 @@ header ul li a
 }
 
 #toogle:checked+.chackbox {
-    background-color: #3e2e57;
+    background-color: #424242;
 }
 
 #toogle:checked~.menu {
-    box-shadow: 0px 0px 0px 100vmax #3e2e57;
+    box-shadow: 0px 0px 0px 100vmax #424242;
     z-index: 1;
 }
 
@@ -260,4 +340,5 @@ header ul li a
     visibility: visible;
     opacity: 1;
 }
+
 
