@@ -205,9 +205,61 @@ header ul li a
     color: #FFFFFF;
     transform: matrix(0.93, 0, -0.43, 1, 0, 0);
 }
+
+/* .notification {
+    position: relative;
+    display: inline-block;
+    max-width: 300px;
+    font-family: 'Montserrat Alternates', sans-serif;  
+    font-weight: bolder; 
+    top: 379px;
+    left: 967px;
+    padding: 20px 15px;
+    border-radius: 50px;
+    background-color: #330d4d;
+    color: #786496;
+    font-size: 23px;
+    transform: translateY(30px);
+    opacity: 0;
+    visibility: hidden;
+    animation: fade 450s linear
+    forwards;
+
+}
+
+
+
+
+
+@keyframes fade {
+    5% {
+        opacity: 1;
+        visibility: visible  ;
+        transform: translateY(0px);
+    }
+    98% {
+        opacity: 1px;
+        transform: translateY(0px);
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY();
+    }
+}
+
+@keyframes progress {
+    to {
+        margin-left: 0%;
+        width: 94%;
+        
+    }
+}
    
 
-    
+     */
 
 
 
@@ -340,5 +392,8 @@ header ul li a
     visibility: visible;
     opacity: 1;
 }
+
+
+
 
 
