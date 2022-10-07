@@ -9,14 +9,37 @@
  
   
   
-    <header>
+    <header id="r">
         <a href="#" class="logo">Isaque <span style="color: #7B53BB;">Almeida</span></a>
-        
-        <ul id="ff">
-          <li><a href="#" class="active">Sobre</a></li>
+        <div class="u">
+         <ul id="ff">
+          <li><a href="#">Sobre</a></li>
           <li><a href="#sec2">Trabalhos</a></li>
           <li><a href="#sec3">Contatos</a></li>
-        </ul>
+         </ul>
+        </div>
+
+        <div class="ico">
+          <a href="https://www.instagram.com/isaquealmeida_fotos/">
+            <img src="instagram.png" height="31" width="31"> 
+          </a>  
+        </div>
+    
+        <div class="ico2">
+          <a href="#">
+            <img src="whatsapp.png" height="31" width="31"> 
+          </a>  
+        </div>
+    
+        <div class="ico3">
+          <a href="#">
+            <img src="linkedin.png" height="31" width="31"> 
+          </a>  
+        </div>
+
+        
+
+        
     </header>
 
     <div class="ret"></div>
@@ -25,23 +48,7 @@
       <p>Seguir</p>
     </div>
 
-    <div class="ico">
-      <a href="#">
-        <img src="instagram.png" height="31" width="31"> 
-      </a>  
-    </div>
-
-    <div class="ico2">
-      <a href="#">
-        <img src="whatsapp.png" height="31" width="31"> 
-      </a>  
-    </div>
-
-    <div class="ico3">
-      <a href="#">
-        <img src="linkedin.png" height="31" width="31"> 
-      </a>  
-    </div>
+   
 
     <!-- <div class="notification">
       <p1>Lorem ipsum dolor sit amet,
@@ -68,7 +75,8 @@
     <div class="sec2">
       <section id="sec2">
         <h2>Trabalhos</h2>
-       
+        
+      
     </div>
 
     <div class="sec3">
@@ -121,7 +129,7 @@
       <script>
         // let stars = document.getElementById('stars');
         // let moon = document.getElementById('moon');
-        // let mountains_behind = document.getElementById('mountains_behind');
+        let foto = document.getElementById('foto');
         // let text = document.getElementById('text');
         let p = document.getElementById('p');
         // let mountains_front = document.getElementById('mountains_front');
@@ -131,7 +139,7 @@
             let value = window.scrollY;
             // stars.style.left = value *0.25 + 'px';
             // moon.style.top = value *1.05 + 'px';
-            // mountains_behind.style.top = value * 0.5 + 'px';
+            foto.style.top = value * 0.5 + 'px';
             // mountains_front.style.top = value * 0 + 'px';
             // text.style.marginRight = value * 3.1 + 'px';
             // text.style.marginTop = value * 1.5 + 'px';
