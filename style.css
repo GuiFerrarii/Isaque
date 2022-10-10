@@ -9,7 +9,7 @@
 }
 body
 {
-    background: linear-gradient(#1e152c,#0E121B);
+    background: linear-gradient(#1e152c,#110c1a,#0E121B);
     overflow-x: hidden ;
     min-height: 100vh;
     
@@ -22,15 +22,19 @@ header
     justify-content: space-between;
     z-index: 100000;
 }
-
+/* trocas de telas */
 #sec2{
-    font-size: 110px;
+    font-size: 22px;
     color: #786496;
+    
 }
 
 #sec3{
-    font-size: 110px;
-    color: #786496;
+    font-size: 100px;
+    color: #FFFFFF;
+
+   
+   
 }
 
 header #ff{
@@ -43,8 +47,45 @@ header #ff{
     top: 57px;
 }
 
+/* botao + */
+/* .inner {
+    background: #FFFFFF;
+    padding: 1em;
+    border-radius: 10px;
+    width: 250px;
+    clip-path: circle(10% at 90% 13%);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    position: fixed;
+    left: 121px;
+    top: 424px;
+    position: relative;
+  }
+  .inner:hover {
+    clip-path: circle(80%);
+    background: rgb(202, 202, 202);
+  }
+  .inner span {
+    float: right;
+    color: #7B53BB;
+    font-weight: bold;
+    transition: color 0.5s;
+    position: relative;
+    left: -1px;
+  }
+  .inner:hover span {
+    color: rgba(255, 255, 255, 0);
+  }
+  .inner h1 {
+    color: #7B53BB;
+    margin: 0;
+  }
+  .inner p {
+    color: white;
+    font-size: 0.8rem;
+  } */
 
- .logo
+  .logo
 {
     color: rgba(255, 255, 255, 0.849);
     font-weight: 700;
@@ -211,66 +252,420 @@ header ul li a
     transform: matrix(0.93, 0, -0.43, 1, 0, 0);
 }
 
-/* .notification {
-    position: relative;
-    display: inline-block;
-    max-width: 300px;
-    font-family: 'Montserrat Alternates', sans-serif;  
-    font-weight: bolder; 
-    top: 379px;
-    left: 967px;
-    padding: 20px 15px;
+.lo{
+  position: absolute;
+  width: 641px;
+  height: 297px;
+  left: 809px;
+  top: 545px;
+  
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  
+  color: #ffffff;
+}
+
+.ola{
+
+  position: absolute;
+  width: 641px;
+  height: 297px;
+  left: 779px;
+  top: 435px;
+  
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 25px;
+  text-align: center;
+  
+  color: #786496;
+}
+
+
+
+
+
+/* .sa{
+  position: absolute;
+width: 335.16px;
+height: 62px;
+left: 817.22px;
+top: 379px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 800;
+font-size: 41px;
+line-height: 55px;
+
+color: #7B53BB;
+
+transform: matrix(0.97, 0, -0.24, 1, 0, 0);
+}
+ */
+
+
+ .o{
+  position: absolute;
+  
+  left: 100px;
+  top: 11px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 152px;
+  color: #FFFFFF;
+  
+}
+
+.fer{
+  
+position: absolute;
+width: 225px;
+height: 234px;
+background: #5c4f72;
+border-radius: 50px;
+left: 181px;
+top: 168px;
+} 
+
+.fer img{
+  width: 64px;
+  height: 64px;
+  top: 23px;
+  left: 78px;
+  position: absolute;
+}
+
+.fer p{
+  position: absolute;
+  width: 218px;
+  height: 51px;
+  font-family: 'Montserrat Alternates';
+  font-style: bold;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  top: 105px;
+
+}
+
+.fer p1{
+  position: absolute;
+  width: 218px;
+  height: 51px;
+  top: 141px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  
+  color: #F0F0F0;
+
+}
+
+.agendar{
+  position: absolute;
+  width: 141px;
+  height: 39px;
+  background: #6c588a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 50px;
+  top: 175px;
+  left: 40px;
+}
+
+.agendar a{
+  position: absolute;
+  width: 218px;
+  height: 51px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  top: 12px;
+  text-decoration: none;
+  left: -39px;
+  
+
+}
+
+.fer1{
+  
+  position: absolute;
+  width: 225px;
+  height: 234px;
+  background: #5c4f72;
+  border-radius: 50px;
+  left: 181px;
+  top: 420px;
+  } 
+
+  .fer1 img{
+    width: 64px;
+    height: 64px;
+    top: 23px;
+    left: 78px;
+    position: absolute;
+  }
+  
+  .fer1 p{
+    position: absolute;
+    width: 218px;
+    height: 51px;
+    font-family: 'Montserrat Alternates';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 105px;
+  
+  }
+  
+  .fer1 p1{
+    position: absolute;
+    width: 218px;
+    height: 51px;
+    top: 141px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #F0F0F0;
+  
+  }
+  
+  .agendar1{
+    position: absolute;
+    width: 141px;
+    height: 39px;
+    background: #6c588a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
     border-radius: 50px;
-    background-color: #330d4d;
-    color: #786496;
-    font-size: 23px;
-    transform: translateY(30px);
-    opacity: 0;
-    visibility: hidden;
-    animation: fade 450s linear
-    forwards;
+    top: 175px;
+    left: 40px;
+  }
+  
+  .agendar1 a{
+    position: absolute;
+    width: 218px;
+    height: 51px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 12px;
+    text-decoration: none;
+    left: -39px;
+    
+  
+  }
 
-}
-
-
-
-
-
-@keyframes fade {
-    5% {
-        opacity: 1;
-        visibility: visible  ;
-        transform: translateY(0px);
+  .fer2{
+  
+    position: absolute;
+    width: 225px;
+    height: 234px;
+    background: #5c4f72;
+    border-radius: 50px;
+    left: 181px;
+    top: 670px;
+    } 
+  
+    .fer2 img{
+      width: 64px;
+      height: 64px;
+      top: 23px;
+      left: 78px;
+      position: absolute;
     }
-    98% {
-        opacity: 1px;
-        transform: translateY(0px);
+    
+    .fer2 p{
+      position: absolute;
+      width: 218px;
+      height: 51px;
+      font-family: 'Montserrat Alternates';
+      font-style: bold;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      top: 105px;
+    
     }
-    95% {
-        opacity: 0;
+    
+    .fer2 p1{
+      position: absolute;
+      width: 218px;
+      height: 51px;
+      top: 141px;
+      font-family: 'Montserrat Alternates';
+      font-style: normal;
+      font-weight: lighter;
+      font-size: 11px;
+      line-height: 15px;
+      text-align: center;
+      
+      color: #F0F0F0;
+    
     }
-    100% {
-        opacity: 0;
-        transform: translateY();
+    
+    .agendar2{
+      position: absolute;
+      width: 141px;
+      height: 39px;
+      background: #6c588a;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+      border-radius: 50px;
+      top: 175px;
+      left: 40px;
     }
-}
+    
+    .agendar2 a{
+      position: absolute;
+      width: 218px;
+      height: 51px;
+      font-family: 'Montserrat Alternates';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+      text-align: center;
+      color: #FFFFFF;
+      top: 12px;
+      text-decoration: none;
+      left: -39px;
+      
+    
+    }
 
-@keyframes progress {
-    to {
-        margin-left: 0%;
-        width: 94%;
-        
-    }
-}
+
+
+
+
+.container {
+    position: relative;
+    width: 1160px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    margin: auto;
+    left: 212px;
+  }
+  .container .box {
+    position: relative;
+    width: 275px;
+    height: 275px;
+    background: #000;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    overflow: hidden;
+    margin-right: 15px;
+    margin-top: 45px;
+  }
+  .container:hover .box {
+    transform: rotateY(25deg);
+  }
+  .container .box:hover ~ .box {
+    transform: rotateY(-25deg);
+  }
+  .container .box:hover {
+    transform: rotateY(0deg) scale(1.25);
+    z-index: 1;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+  }
+  .container .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .container .box .imgBx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
    
-
-    */
-
-
-
-
-
-
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+    mix-blend-mode: multiply;
+  }
+  .container .box:hover .imgBx:before {
+    opacity: 1;
+  }
+  .container .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+  .container .box .content h2 {
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 20px;
+    transform: translateY(200px);
+    transition-delay: 0.3s;
+  }
+  .container .box:hover .content h2 {
+    transform: translateY(0px);
+  }
+  .container .box .content p {
+    color: #fff;
+    transition: 0.5s;
+    font-size: 14px;
+    transform: translateY(200px);
+    transition-delay: 0.4s;
+  }
+  .container .box:hover .content p {
+    transform: translateY(0px);
+  }
+ 
+ 
 
 
 
@@ -296,10 +691,13 @@ header ul li a
 }
 
 
+
+
+
 .chackbox .trace {
     width: 50px;
     height: 2px;
-    background-color: rgba(255, 255, 255, 0.849);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -333,7 +731,7 @@ header ul li a
     height: 4px;
     width: 10px;
     border-radius: 50px;
-    box-shadow: 0px 0px 0px 0px #15111b;
+    box-shadow: 0px 0px 0px 0px #222222;
     z-index: 1;
     transition: 400ms ease-in-out 0s;
 }
@@ -359,7 +757,7 @@ header ul li a
 
 .menu-itens ul li a {
     margin: 10px;
-    color: rgba(255, 255, 255, 0.671);
+    color: rgba(255, 255, 255, 0.863);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -384,11 +782,11 @@ header ul li a
 }
 
 #toogle:checked+.chackbox {
-    background-color: #424242;
+    background-color: #474646;
 }
 
 #toogle:checked~.menu {
-    box-shadow: 0px 0px 0px 100vmax #424242;
+    box-shadow: 0px 0px 0px 100vmax #474646;
     z-index: 1;
 }
 
@@ -396,3 +794,4 @@ header ul li a
     visibility: visible;
     opacity: 1;
 }
+
