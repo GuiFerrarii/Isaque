@@ -7,12 +7,28 @@
     font-family: 'Montserrat Alternates', sans-serif;
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    width: 14px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: linear-gradient(#1e152c,#0E121B);
+    overflow-x: hidden ;
+    -webkit-border-radius: 10px;
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #5c4f72; 
+}
+
 body
 {
     background: linear-gradient(#1e152c,#110c1a,#0E121B);
     overflow-x: hidden ;
     min-height: 100vh;
-    
 }
 header
 {
@@ -26,26 +42,47 @@ header
 #sec2{
     font-size: 22px;
     color: #786496;
-    
 }
 
 #sec3{
     font-size: 100px;
     color: #FFFFFF;
-
-   
-   
 }
 
 header #ff{
     font-size: 18px;
     position: relative;
-    left: 422px;
+    left: 401px;
     display: flex;
     justify-content: space-between; 
     z-index: 100000;
-    top: 57px;
+    top: 65px;
 }
+
+header #ff:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 12px;
+    position: absolute;
+    background: #AFA1C1;;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0px;
+  }
+header #ff:hover:after { 
+    content:"";
+    height: 2px;
+    width: 91%;
+    background-color: #AFA1C1;;
+    display: block;
+  }
+
+  
+
+  
+
 
 /* botao + */
 /* .inner {
@@ -98,9 +135,6 @@ header #ff{
     left: 99px;
     top: 60px;
     transform: matrix(0.93, 0, -0.43, 1, 0, 0);
-    
-    
-
 }
 
 
@@ -114,7 +148,6 @@ section
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
 }
 section::before
 {
@@ -123,7 +156,6 @@ section::before
     bottom: 0;
     width: 100%;
     height: 100px;
-   
     z-index: 1000;
 }
 
@@ -138,7 +170,6 @@ section::before
     background-size:cover;
     background-position: center;
     border-radius: 10px;
-    
 }
 
 .pb{
@@ -155,18 +186,14 @@ section::before
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray; /* IE */
-    
 }
  
  
-
-
 
 header ul
 {
     display: flex;
     font-size: 18px;
-  
     align-items: center;
     position: relative;
     left: 12px;
@@ -258,32 +285,27 @@ header ul li a
   height: 297px;
   left: 809px;
   top: 545px;
-  
   font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 800;
   font-size: 15px;
   line-height: 25px;
   text-align: center;
-  
   color: #ffffff;
 }
 
 .ola{
-
   position: absolute;
   width: 641px;
   height: 297px;
   left: 779px;
   top: 435px;
-  
   font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 800;
   font-size: 56px;
   line-height: 25px;
   text-align: center;
-  
   color: #786496;
 }
 
@@ -291,29 +313,24 @@ header ul li a
 
 
 
-/* .sa{
-  position: absolute;
-width: 335.16px;
-height: 62px;
-left: 817.22px;
-top: 379px;
-
-font-family: 'Montserrat Alternates';
-font-style: normal;
-font-weight: 800;
-font-size: 41px;
-line-height: 55px;
-
-color: #7B53BB;
-
-transform: matrix(0.97, 0, -0.24, 1, 0, 0);
+  /* botao subir e descer tela sec2 */
+ .cima{
+    position: relative;
+    top: -40px;
+    left: 1711px;
 }
- */
+
+.baixo{
+    position: relative;
+    top: 94px;
+    left: 1653px;
+    
+   
+}
 
 
  .o{
   position: absolute;
-  
   left: 100px;
   top: 11px;
   font-family: 'Montserrat Alternates';
@@ -322,18 +339,16 @@ transform: matrix(0.97, 0, -0.24, 1, 0, 0);
   font-size: 48px;
   line-height: 152px;
   color: #FFFFFF;
-  
 }
 
 .fer{
-  
 position: absolute;
 width: 225px;
 height: 234px;
 background: #5c4f72;
 border-radius: 50px;
 left: 181px;
-top: 168px;
+top: 161px;
 } 
 
 .fer img{
@@ -356,23 +371,20 @@ top: 168px;
   text-align: center;
   color: #FFFFFF;
   top: 105px;
-
 }
 
 .fer p1{
   position: absolute;
   width: 218px;
   height: 51px;
-  top: 141px;
+  top: 135px;
   font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: lighter;
   font-size: 11px;
   line-height: 15px;
   text-align: center;
-  
   color: #F0F0F0;
-
 }
 
 .agendar{
@@ -400,8 +412,6 @@ top: 168px;
   top: 12px;
   text-decoration: none;
   left: -39px;
-  
-
 }
 
 .fer1{
@@ -412,7 +422,7 @@ top: 168px;
   background: #5c4f72;
   border-radius: 50px;
   left: 181px;
-  top: 420px;
+  top: 415px;
   } 
 
   .fer1 img{
@@ -442,16 +452,14 @@ top: 168px;
     position: absolute;
     width: 218px;
     height: 51px;
-    top: 141px;
+    top: 135px;
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: lighter;
     font-size: 11px;
     line-height: 15px;
     text-align: center;
-    
     color: #F0F0F0;
-  
   }
   
   .agendar1{
@@ -514,23 +522,20 @@ top: 168px;
       text-align: center;
       color: #FFFFFF;
       top: 105px;
-    
     }
     
     .fer2 p1{
       position: absolute;
       width: 218px;
       height: 51px;
-      top: 141px;
+      top: 135px;
       font-family: 'Montserrat Alternates';
       font-style: normal;
       font-weight: lighter;
       font-size: 11px;
       line-height: 15px;
       text-align: center;
-      
       color: #F0F0F0;
-    
     }
     
     .agendar2{
@@ -558,12 +563,7 @@ top: 168px;
       top: 12px;
       text-decoration: none;
       left: -39px;
-      
-    
     }
-
-
-
 
 
 .container {
@@ -575,7 +575,7 @@ top: 168px;
     transform-style: preserve-3d;
     perspective: 1000px;
     margin: auto;
-    left: 212px;
+    left: 201px;
   }
   .container .box {
     position: relative;
@@ -589,10 +589,10 @@ top: 168px;
     margin-top: 45px;
   }
   .container:hover .box {
-    transform: rotateY(25deg);
+    transform: rotateY(5deg);
   }
   .container .box:hover ~ .box {
-    transform: rotateY(-25deg);
+    transform: rotateY(-5deg);
   }
   .container .box:hover {
     transform: rotateY(0deg) scale(1.25);
@@ -665,9 +665,6 @@ top: 168px;
     transform: translateY(0px);
   }
  
- 
-
-
 
 .chackbox-container {
     display: flex;
@@ -689,9 +686,6 @@ top: 168px;
     z-index: 999;
     transition: 400ms ease-in-out 0s;
 }
-
-
-
 
 
 .chackbox .trace {
