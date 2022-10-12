@@ -1,35 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
-    width: 14px;
-}
- 
-::-webkit-scrollbar-track {
-    background: linear-gradient(#1e152c,#0E121B);
+body
+{
+    background: linear-gradient(#1d1d1d,#1d1d1d);
     overflow-x: hidden ;
-    -webkit-border-radius: 10px;
-    border-radius: 1px;
+    min-height: 100vh;
+    
+}
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(#1d1d1d,#1d1d1d);
+  overflow-x: hidden ;
+  -webkit-border-radius: 10px;
+  border-radius: 1px;
 }
 
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: #5c4f72; 
+  -webkit-border-radius: 10px;
+  border-radius: 4px;
+  background: linear-gradient(#FF9472,#F2709C); 
 }
 
-body
-{
-    background: linear-gradient(#1e152c,#110c1a,#0E121B);
-    overflow-x: hidden ;
-    min-height: 100vh;
-}
+
 header
 {
     font-size: 18px;
@@ -42,100 +44,211 @@ header
 #sec2{
     font-size: 22px;
     color: #786496;
+    
 }
 
 #sec3{
-    font-size: 100px;
+    font-size: 45px;
     color: #FFFFFF;
+    background: linear-gradient(#FF9472,#F2709C); 
+    
 }
+
+.pp{
+  position: absolute;
+  width: 771px;
+  height: 235px;
+  
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  left: 250px;
+  top: 480px;
+  color: #FFFFFF;
+  }
 
 header #ff{
     font-size: 18px;
     position: relative;
-    left: 401px;
+    left: 599px;
     display: flex;
     justify-content: space-between; 
     z-index: 100000;
-    top: 65px;
+    top: 57px;
 }
 
-header #ff:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 1px;
-    left: 12px;
-    position: absolute;
-    background: #AFA1C1;;
-    transition: width 0.5s ease 0s, left 0.5s ease 0s;
-    width: 0px;
-  }
-header #ff:hover:after { 
-    content:"";
-    height: 2px;
-    width: 91%;
-    background-color: #AFA1C1;;
-    display: block;
-  }
-
+.lala{
+  width: 28%;
+  height: 28%;
+  position: absolute;
+  top: 453px;
+  right:  200px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
   
+}
 
-  
+/* links sec3 */
+.gmail {
+    
+  font-size: 24px;
+  text-decoration:none;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  color: #ffffff;
+  position: relative;
+  right:  575px;
+  top: 169px;
+  padding: left;
+}
+
+.gmail::after {
+  content:"";
+  color: #f6f5f9; 
+  display: block;
+  transition: .5s ease-out;
+     
+}
+
+.gmail:hover::after{
+  content:"";
+  height: 2px;
+  width: 79%;
+  background-color: #f6f5f9;
+  display: block;
+  position: relative;
+  top: -9px;
+}
+
+.insta {
+    
+  font-size: 24px;
+  text-decoration:none;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  color: #ffffff;
+  position: relative;
+  right:  490px;
+  top: 169px;
+  padding: left;
+}
+
+.insta::after {
+  content:"";
+  color: #f6f5f9; 
+  display: block;
+  transition: .5s ease-out;
+     
+}
+
+.insta:hover::after{
+  content:"";
+  height: 2px;
+  width: 79%;
+  background-color: #f6f5f9;
+  display: block;
+  position: relative;
+  top: -9px;
+}
+
+.twi {
+    
+  font-size: 24px;
+  text-decoration:none;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  color: #ffffff;
+  position: relative;
+  right:  400px;
+  top: 169px;
+  padding: left;
+}
+
+.twi::after {
+  content:"";
+  color: #f6f5f9; 
+  display: block;
+  transition: .5s ease-out;
+     
+}
+
+.twi:hover::after{
+  content:"";
+  height: 2px;
+  width: 79%;
+  background-color: #f6f5f9;
+  display: block;
+  position: relative;
+  top: -9px;
+}
+
+.wpp {
+    
+  font-size: 24px;
+  text-decoration:none;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  color: #ffffff;
+  position: relative;
+  right:  300px;
+  top: 169px;
+  padding: left;
+}
+
+.wpp::after {
+  content:"";
+  color: #f6f5f9; 
+  display: block;
+  transition: .5s ease-out;
+     
+}
+
+.wpp:hover::after{
+  content:"";
+  height: 2px;
+  width: 79%;
+  background-color: #f6f5f9;
+  display: block;
+  position: relative;
+  top: -9px;
+}
 
 
-/* botao + */
-/* .inner {
-    background: #FFFFFF;
-    padding: 1em;
-    border-radius: 10px;
-    width: 250px;
-    clip-path: circle(10% at 90% 13%);
-    transition: all 0.5s ease-in-out;
-    cursor: pointer;
-    position: fixed;
-    left: 121px;
-    top: 424px;
-    position: relative;
-  }
-  .inner:hover {
-    clip-path: circle(80%);
-    background: rgb(202, 202, 202);
-  }
-  .inner span {
-    float: right;
-    color: #7B53BB;
-    font-weight: bold;
-    transition: color 0.5s;
-    position: relative;
-    left: -1px;
-  }
-  .inner:hover span {
-    color: rgba(255, 255, 255, 0);
-  }
-  .inner h1 {
-    color: #7B53BB;
-    margin: 0;
-  }
-  .inner p {
-    color: white;
-    font-size: 0.8rem;
-  } */
+
+
+
 
   .logo
 {
-    color: rgba(255, 255, 255, 0.849);
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    position: relative;
-    left: 99px;
-    top: 60px;
-    transform: matrix(0.93, 0, -0.43, 1, 0, 0);
+  position: relative;
+  width: 698px;
+  height: 256px;
+  left: 141px;
+  top: 41px;
+  
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 96px;
+  
+  background: linear-gradient(90deg, #FF9472 0%, #F2709C 82.27%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+
+    
+    
+    
+
 }
+
+
 
 
 section
@@ -148,6 +261,7 @@ section
     justify-content: center;
     align-items: center;
     overflow: hidden;
+
 }
 section::before
 {
@@ -156,20 +270,22 @@ section::before
     bottom: 0;
     width: 100%;
     height: 100px;
+   
     z-index: 1000;
 }
 
 .foto{
     position: absolute;
-    width: 403.93px;
-    height: 450.03px;
-    left: 445.54px;
-    top: 250px;
+    width: 535.98px;
+    height: 570.04px;
+    left: 328px;
+    top: 222px; 
     background-image: url(download.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 245px;
+    
 }
 
 .pb{
@@ -186,14 +302,18 @@ section::before
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray; /* IE */
+    
 }
  
  
 
+
+
 header ul
 {
     display: flex;
-    font-size: 18px;
+    font-size: 100px;
+  
     align-items: center;
     position: relative;
     left: 12px;
@@ -208,13 +328,87 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: #786496;
+    color: #f8f6f6;
+    font-size: 26px;
     
 }
 
 
 
-.ret{
+
+
+header ul li a:hover
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #a8a7a7;
+    font-size: 26px;
+
+    
+}
+
+  /* botao subir e descer tela sec2 */
+  /* .cima{
+    position: relative;
+    bottom: 400px;
+    left: 800px;
+}
+
+.baixo{
+    position: relative;
+    top: 100px;
+    left: 1653px;
+    
+   
+} */
+
+
+.y{
+  
+  position: absolute;
+width: 3000px;
+height: 278px;
+left: -11px;
+top: -24px;
+
+background:  #1d1d1d ;
+
+}
+
+
+
+.gra{
+  
+  position: absolute;
+width: 288px;
+height: 68px;
+left: 1279px;
+top: 686px;
+
+background: linear-gradient(90deg, #FF9472 0%, #F2709C 100%);
+border-radius: 50px;
+}
+
+#tt{
+  position: relative;
+  left: 61px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 39px;
+  top: 12px;
+
+
+color: #FFFEFE;
+
+}
+
+
+
+
+
+
+/* .ret{
     width: 277px;
     height: 80px;
     background-color: #1E1E1E;
@@ -230,7 +424,7 @@ header ul li a
     height: 33px;
     left: 1443px;
     top: 822px;
-    background: #D0B5DD;
+    background: #ffffff;
     border-radius: 15px;
 }
 .ret2 p{
@@ -262,93 +456,89 @@ header ul li a
     height: 33px;
     left: 1750px;
     top: 824px;  
-}
+} */
 
 .p{
-    position: absolute;
-    width: 890.41px;
-    height: 191.8px;
-    left: 769.59px;
-    top: 202px;
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 125px;
-    line-height: 152px;
-    color: #FFFFFF;
-    transform: matrix(0.93, 0, -0.43, 1, 0, 0);
+  position: absolute;
+  width: 530px;
+  height: 233px;
+  left: 1096px;
+  top: 238px;
+  
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 154px;
+  
+  background: linear-gradient(90deg, #FF9472 0%, #F2709C 82.27%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+ 
 }
 
 .lo{
   position: absolute;
-  width: 641px;
-  height: 297px;
-  left: 809px;
-  top: 545px;
-  font-family: 'Montserrat Alternates';
+  width: 438px;
+  height: 235px;
+  left: 1111px;
+  top: 451px;
+  
+  font-family: 'Bebas Neue';
   font-style: normal;
-  font-weight: 800;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.ola{
-  position: absolute;
-  width: 641px;
-  height: 297px;
-  left: 779px;
-  top: 435px;
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 56px;
-  line-height: 25px;
-  text-align: center;
-  color: #786496;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+  
+  color: #FFFFFF;
+  
 }
 
 
 
 
 
-  /* botao subir e descer tela sec2 */
- .cima{
-    position: relative;
-    top: -40px;
-    left: 1711px;
-}
 
-.baixo{
-    position: relative;
-    top: 94px;
-    left: 1653px;
-    
-   
-}
+
+
+
+
 
 
  .o{
   position: absolute;
-  left: 100px;
-  top: 11px;
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
+  
+  left: 80px;
+  top: 26px;
+  font-family: 'Bebas Neue';
   font-weight: 800;
-  font-size: 48px;
+  font-size: 50px;
   line-height: 152px;
   color: #FFFFFF;
+  
+
+
+
+background: linear-gradient(90deg, #FF9472 0%, #F2709C 82.27%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+  
+  
 }
 
-.fer{
+/* .fer{
+  
 position: absolute;
 width: 225px;
 height: 234px;
 background: #5c4f72;
 border-radius: 50px;
 left: 181px;
-top: 161px;
+top: 168px;
 } 
 
 .fer img{
@@ -363,7 +553,7 @@ top: 161px;
   position: absolute;
   width: 218px;
   height: 51px;
-  font-family: 'Montserrat Alternates';
+  font-family: 'Bebas Neue', cursive;
   font-style: bold;
   font-weight: 700;
   font-size: 20px;
@@ -371,20 +561,23 @@ top: 161px;
   text-align: center;
   color: #FFFFFF;
   top: 105px;
+
 }
 
 .fer p1{
   position: absolute;
   width: 218px;
   height: 51px;
-  top: 135px;
-  font-family: 'Montserrat Alternates';
+  top: 141px;
+  font-family: 'Bebas Neue', cursive;
   font-style: normal;
   font-weight: lighter;
   font-size: 11px;
   line-height: 15px;
   text-align: center;
+  
   color: #F0F0F0;
+
 }
 
 .agendar{
@@ -402,7 +595,7 @@ top: 161px;
   position: absolute;
   width: 218px;
   height: 51px;
-  font-family: 'Montserrat Alternates';
+  font-family: 'Bebas Neue', cursive;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -412,6 +605,8 @@ top: 161px;
   top: 12px;
   text-decoration: none;
   left: -39px;
+  
+
 }
 
 .fer1{
@@ -422,7 +617,7 @@ top: 161px;
   background: #5c4f72;
   border-radius: 50px;
   left: 181px;
-  top: 415px;
+  top: 420px;
   } 
 
   .fer1 img{
@@ -437,7 +632,7 @@ top: 161px;
     position: absolute;
     width: 218px;
     height: 51px;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Bebas Neue', cursive;
     font-style: bold;
     font-weight: 700;
     font-size: 20px;
@@ -452,14 +647,16 @@ top: 161px;
     position: absolute;
     width: 218px;
     height: 51px;
-    top: 135px;
-    font-family: 'Montserrat Alternates';
+    top: 141px;
+    font-family: 'Bebas Neue', cursive;
     font-style: normal;
     font-weight: lighter;
     font-size: 11px;
     line-height: 15px;
     text-align: center;
+    
     color: #F0F0F0;
+  
   }
   
   .agendar1{
@@ -477,7 +674,7 @@ top: 161px;
     position: absolute;
     width: 218px;
     height: 51px;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Bebas Neue', cursive;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -514,7 +711,7 @@ top: 161px;
       position: absolute;
       width: 218px;
       height: 51px;
-      font-family: 'Montserrat Alternates';
+      font-family: 'Bebas Neue', cursive;
       font-style: bold;
       font-weight: 700;
       font-size: 20px;
@@ -522,20 +719,23 @@ top: 161px;
       text-align: center;
       color: #FFFFFF;
       top: 105px;
+    
     }
     
     .fer2 p1{
       position: absolute;
       width: 218px;
       height: 51px;
-      top: 135px;
-      font-family: 'Montserrat Alternates';
+      top: 141px;
+      font-family: 'Bebas Neue', cursive;
       font-style: normal;
       font-weight: lighter;
       font-size: 11px;
       line-height: 15px;
       text-align: center;
+      
       color: #F0F0F0;
+    
     }
     
     .agendar2{
@@ -553,7 +753,7 @@ top: 161px;
       position: absolute;
       width: 218px;
       height: 51px;
-      font-family: 'Montserrat Alternates';
+      font-family: 'Bebas Neue', cursive;
       font-style: normal;
       font-weight: 600;
       font-size: 13px;
@@ -563,7 +763,12 @@ top: 161px;
       top: 12px;
       text-decoration: none;
       left: -39px;
-    }
+      
+    
+    } */
+
+
+
 
 
 .container {
@@ -575,29 +780,33 @@ top: 161px;
     transform-style: preserve-3d;
     perspective: 1000px;
     margin: auto;
-    left: 201px;
+    left: 26px;
+    top: 12px;
   }
   .container .box {
     position: relative;
     width: 275px;
     height: 275px;
     background: #000;
-    transition: 0.5s;
+    transition: 0.4s;
     transform-style: preserve-3d;
     overflow: hidden;
     margin-right: 15px;
     margin-top: 45px;
+    border-radius: 11px;
   }
   .container:hover .box {
     transform: rotateY(5deg);
+    
   }
   .container .box:hover ~ .box {
     transform: rotateY(-5deg);
+
   }
   .container .box:hover {
-    transform: rotateY(0deg) scale(1.25);
+    transform: rotateY(0deg) scale(1.29);
     z-index: 1;
-    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+    
   }
   .container .box .imgBx {
     position: absolute;
@@ -665,6 +874,9 @@ top: 161px;
     transform: translateY(0px);
   }
  
+ 
+
+
 
 .chackbox-container {
     display: flex;
@@ -686,6 +898,9 @@ top: 161px;
     z-index: 999;
     transition: 400ms ease-in-out 0s;
 }
+
+
+
 
 
 .chackbox .trace {
@@ -788,4 +1003,5 @@ top: 161px;
     visibility: visible;
     opacity: 1;
 }
+
 
