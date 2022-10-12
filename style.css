@@ -28,7 +28,7 @@ body
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 4px;
-  background: linear-gradient(#FF9472,#F2709C); 
+  background: linear-gradient(#4568DC,#B06AB3); 
 }
 
 
@@ -50,7 +50,7 @@ header
 #sec3{
     font-size: 45px;
     color: #FFFFFF;
-    background: linear-gradient(#FF9472,#F2709C); 
+    background: linear-gradient(#4568DC,#B06AB3); 
     
 }
 
@@ -155,6 +155,7 @@ header #ff{
   top: -9px;
 }
 
+
 .twi {
     
   font-size: 24px;
@@ -236,7 +237,7 @@ header #ff{
   font-size: 65px;
   line-height: 96px;
   
-  background: linear-gradient(90deg, #FF9472 0%, #F2709C 82.27%);
+  background: linear-gradient(90deg, #4568DC 0%, #B06AB3 82.27%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -385,7 +386,7 @@ height: 68px;
 left: 1279px;
 top: 686px;
 
-background: linear-gradient(90deg, #FF9472 0%, #F2709C 100%);
+background: linear-gradient(90deg, #4568DC 0%, #B06AB3 100%);
 border-radius: 50px;
 }
 
@@ -471,7 +472,7 @@ color: #FFFEFE;
   font-size: 128px;
   line-height: 154px;
   
-  background: linear-gradient(90deg, #FF9472 0%, #F2709C 82.27%);
+  background: linear-gradient(90deg, #4568DC 0%, #B06AB3 82.27%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -521,7 +522,7 @@ color: #FFFEFE;
 
 
 
-background: linear-gradient(90deg, #FF9472 0%, #F2709C 82.27%);
+background: linear-gradient(90deg, #4568DC 0%, #B06AB3 82.27%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
@@ -1003,5 +1004,4 @@ top: 168px;
     visibility: visible;
     opacity: 1;
 }
-
 
