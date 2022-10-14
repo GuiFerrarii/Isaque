@@ -88,6 +88,8 @@ header
   left: 250px;
   top: 480px;
   color: #FFFFFF;
+  cursor: default;
+ 
   }
 
 header #ff{
@@ -122,7 +124,7 @@ header #ff{
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  515px;
+  right:  453px;
   top: 169px;
   padding: left;
 }
@@ -154,7 +156,7 @@ header #ff{
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  440px;
+  right:  400px;
   top: 169px;
   padding: left;
 }
@@ -187,7 +189,7 @@ header #ff{
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  355px;
+  right:  345px;
   top: 169px;
   padding: left;
 }
@@ -219,7 +221,7 @@ header #ff{
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  278px;
+  right:  289px;
   top: 169px;
   padding: left;
 }
@@ -233,6 +235,38 @@ header #ff{
 }
 
 .wpp:hover::after{
+  content:"";
+  height: 2px;
+  width: 97%;
+  background-color: #f6f5f9;
+  display: block;
+  position: relative;
+  top: -9px;
+  left: -6px;
+}
+
+.home {
+    
+  font-size: 24px;
+  text-decoration:none;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  color: #ffffff;
+  position: relative;
+  right:  234px;
+  top: 169px;
+  padding: left;
+}
+
+.home::after {
+  content:"";
+  color: #f6f5f9; 
+  display: block;
+  transition: .5s ease-out;
+     
+}
+
+.home:hover::after{
   content:"";
   height: 2px;
   width: 97%;
@@ -540,6 +574,7 @@ color: #FFFEFE;
   font-size: 50px;
   line-height: 152px;
   color: #FFFFFF;
+  cursor: default;
   
 
 
@@ -552,232 +587,6 @@ background-clip: text;
   
   
 }
-
-/* .fer{
-  
-position: absolute;
-width: 225px;
-height: 234px;
-background: #5c4f72;
-border-radius: 50px;
-left: 181px;
-top: 168px;
-} 
-.fer img{
-  width: 64px;
-  height: 64px;
-  top: 23px;
-  left: 78px;
-  position: absolute;
-}
-.fer p{
-  position: absolute;
-  width: 218px;
-  height: 51px;
-  font-family: 'Bebas Neue', cursive;
-  font-style: bold;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #FFFFFF;
-  top: 105px;
-}
-.fer p1{
-  position: absolute;
-  width: 218px;
-  height: 51px;
-  top: 141px;
-  font-family: 'Bebas Neue', cursive;
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 11px;
-  line-height: 15px;
-  text-align: center;
-  
-  color: #F0F0F0;
-}
-.agendar{
-  position: absolute;
-  width: 141px;
-  height: 39px;
-  background: #6c588a;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
-  border-radius: 50px;
-  top: 175px;
-  left: 40px;
-}
-.agendar a{
-  position: absolute;
-  width: 218px;
-  height: 51px;
-  font-family: 'Bebas Neue', cursive;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 18px;
-  text-align: center;
-  color: #FFFFFF;
-  top: 12px;
-  text-decoration: none;
-  left: -39px;
-  
-}
-.fer1{
-  
-  position: absolute;
-  width: 225px;
-  height: 234px;
-  background: #5c4f72;
-  border-radius: 50px;
-  left: 181px;
-  top: 420px;
-  } 
-  .fer1 img{
-    width: 64px;
-    height: 64px;
-    top: 23px;
-    left: 78px;
-    position: absolute;
-  }
-  
-  .fer1 p{
-    position: absolute;
-    width: 218px;
-    height: 51px;
-    font-family: 'Bebas Neue', cursive;
-    font-style: bold;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    top: 105px;
-  
-  }
-  
-  .fer1 p1{
-    position: absolute;
-    width: 218px;
-    height: 51px;
-    top: 141px;
-    font-family: 'Bebas Neue', cursive;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
-    
-    color: #F0F0F0;
-  
-  }
-  
-  .agendar1{
-    position: absolute;
-    width: 141px;
-    height: 39px;
-    background: #6c588a;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
-    border-radius: 50px;
-    top: 175px;
-    left: 40px;
-  }
-  
-  .agendar1 a{
-    position: absolute;
-    width: 218px;
-    height: 51px;
-    font-family: 'Bebas Neue', cursive;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 18px;
-    text-align: center;
-    color: #FFFFFF;
-    top: 12px;
-    text-decoration: none;
-    left: -39px;
-    
-  
-  }
-  .fer2{
-  
-    position: absolute;
-    width: 225px;
-    height: 234px;
-    background: #5c4f72;
-    border-radius: 50px;
-    left: 181px;
-    top: 670px;
-    } 
-  
-    .fer2 img{
-      width: 64px;
-      height: 64px;
-      top: 23px;
-      left: 78px;
-      position: absolute;
-    }
-    
-    .fer2 p{
-      position: absolute;
-      width: 218px;
-      height: 51px;
-      font-family: 'Bebas Neue', cursive;
-      font-style: bold;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 24px;
-      text-align: center;
-      color: #FFFFFF;
-      top: 105px;
-    
-    }
-    
-    .fer2 p1{
-      position: absolute;
-      width: 218px;
-      height: 51px;
-      top: 141px;
-      font-family: 'Bebas Neue', cursive;
-      font-style: normal;
-      font-weight: lighter;
-      font-size: 11px;
-      line-height: 15px;
-      text-align: center;
-      
-      color: #F0F0F0;
-    
-    }
-    
-    .agendar2{
-      position: absolute;
-      width: 141px;
-      height: 39px;
-      background: #6c588a;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
-      border-radius: 50px;
-      top: 175px;
-      left: 40px;
-    }
-    
-    .agendar2 a{
-      position: absolute;
-      width: 218px;
-      height: 51px;
-      font-family: 'Bebas Neue', cursive;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 13px;
-      line-height: 18px;
-      text-align: center;
-      color: #FFFFFF;
-      top: 12px;
-      text-decoration: none;
-      left: -39px;
-      
-    
-    } */
 
 
 
@@ -864,11 +673,11 @@ top: 168px;
     box-sizing: border-box;
   }
   .container .box .content h2 {
-    color: #fff;
+    color: #B06AB3;
     transition: 0.5s;
     text-transform: uppercase;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 2px;
     transform: translateY(200px);
     transition-delay: 0.3s;
     
