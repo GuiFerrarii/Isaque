@@ -86,7 +86,7 @@ header
   font-size: 48px;
   line-height: 58px;
   left: 250px;
-  top: 480px;
+  top: 620px;
   color: #FFFFFF;
   cursor: default;
  
@@ -106,13 +106,86 @@ header #ff{
   width: 28%;
   height: 28%;
   position: absolute;
-  top: 453px;
+  top: 600px;
   right:  200px;
   background-image: url(logo.png);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
   
+}
+
+
+.notification {
+  position: relative;
+  display: inline-block;
+  max-width: 900px;
+  font-family: 'Bebas Neue';
+  top: 178px;
+  left: 500px;
+  padding: 20px 15px;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px ;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius:2px ;
+  background: linear-gradient(#4568DC,#B06AB3); 
+  color: #f5f5f5;
+  font-size: 62px;
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  animation: fade 120s linear
+  forwards;
+  text-decoration: none;
+
+}
+
+.notification p {
+  color: #000;
+}
+
+
+.progress {
+  position: absolute;
+  left: 15px;
+  bottom: 7px;
+  width: 0;
+  height: 3px;
+  background-image:
+  linear-gradient(to right,#529bdb, #3250bf) ;
+  border-radius: 8px;
+  animation: progress 5s 
+  infinite;
+ 
+}
+
+
+
+@keyframes fade {
+  5% {
+      opacity: 1;
+      visibility: visible  ;
+      transform: translateY(0px);
+  }
+  98% {
+      opacity: 1px;
+      transform: translateY(0px);
+  }
+  95% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0;
+      transform: translateY();
+  }
+}
+
+@keyframes progress {
+  to {
+      margin-left: 0%;
+      width: 94%;
+      
+  }
 }
 
 /* links sec3 */
@@ -125,7 +198,7 @@ header #ff{
   color: #ffffff;
   position: relative;
   right:  453px;
-  top: 169px;
+  top: 310px;
   padding: left;
 }
 
@@ -157,7 +230,7 @@ header #ff{
   color: #ffffff;
   position: relative;
   right:  400px;
-  top: 169px;
+  top: 310px;
   padding: left;
 }
 
@@ -190,7 +263,7 @@ header #ff{
   color: #ffffff;
   position: relative;
   right:  345px;
-  top: 169px;
+  top: 310px;
   padding: left;
 }
 
@@ -222,7 +295,7 @@ header #ff{
   color: #ffffff;
   position: relative;
   right:  289px;
-  top: 169px;
+  top: 310px;
   padding: left;
 }
 
@@ -254,7 +327,7 @@ header #ff{
   color: #ffffff;
   position: relative;
   right:  234px;
-  top: 169px;
+  top: 310px;
   padding: left;
 }
 
@@ -345,7 +418,7 @@ section::before
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    border-radius: 245px;
+    border-radius: 192px;
     
 }
 
@@ -427,7 +500,7 @@ header ul li a:hover
   
   position: absolute;
 width: 3000px;
-height: 278px;
+height: 535px;
 left: -11px;
 top: -24px;
 
@@ -462,6 +535,35 @@ border-radius: 50px;
 color: #FFFEFE;
 
 }
+
+.gra1{
+  
+  position: absolute;
+width: 300px;
+height: 68px;
+left: 800px;
+top: 200px;
+
+background: linear-gradient(90deg, #4568DC 0%, #B06AB3 100%);
+border-radius: 50px;
+}
+
+#tt1{
+  position: relative;
+  left: 66px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 39px;
+  top: 7px;
+
+
+color: #FFFEFE;
+
+}
+
+
+
 
 
 
@@ -677,7 +779,7 @@ background-clip: text;
     transition: 0.5s;
     text-transform: uppercase;
     margin-bottom: 5px;
-    font-size: 2px;
+    font-size: 29px;
     transform: translateY(200px);
     transition-delay: 0.3s;
     
