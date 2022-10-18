@@ -1,929 +1,326 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
-    scroll-behavior: smooth;
-}
-body
-{
-    background: linear-gradient(#1d1d1d,#1d1d1d);
-    overflow-x: hidden ;
-    min-height: 100vh;
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Isaque Almeida</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
     
-}
-::-webkit-scrollbar {
-  width: 9px;
-}
+    <link rel="icon" href="logo.png ">
 
-::-webkit-scrollbar-track {
-  background: linear-gradient(#1d1d1d,#1d1d1d);
-  overflow-x: hidden ;
-  -webkit-border-radius: 10px;
-  border-radius: 1px;
-}
-
-::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 10px;
-  border-radius: 4px;
-  background: linear-gradient(#4568DC,#B06AB3); 
-}
-
-
-header
-{
-    font-size: 18px;
-    position: absolute; 
-    display: flex;
-    justify-content: space-between;
-    z-index: 100000;
-}
-/* trocas de telas */
-#sec2{
-    font-size: 22px;
-    color: #786496;
     
-}
+</head>
+<body>
 
-.cima img{
-  position: relative;
-  left: 1496px;
-  top: -250px;
   
-}
 
-.baixo img{
-  position: relative;
-  left: 251px;
-  top: 325px;
-  
-}
-
-#sec3{
-    font-size: 45px;
-    color: #FFFFFF;
-    background: linear-gradient(#4568DC,#B06AB3); 
-    
-}
-
-.home img{
-  position: relative;
-  left: -200px;
-  top: 400px;
-  
-}
-
-.pp{
-  position: absolute;
-  width: 771px;
-  height: 235px;
-  
-  font-family: 'Bebas Neue';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 58px;
-  left: 250px;
-  top: 620px;
-  color: #FFFFFF;
-  cursor: default;
  
-  }
-
-header #ff{
-    font-size: 18px;
-    position: relative;
-    left: 599px;
-    display: flex;
-    justify-content: space-between; 
-    z-index: 100000;
-    top: 57px;
-}
-
-.lala{
-  width: 28%;
-  height: 28%;
-  position: absolute;
-  top: 600px;
-  right:  200px;
-  background-image: url(logo.png);
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: center;
   
-}
-
-
-.notification {
-  position: relative;
-  display: inline-block;
-  max-width: 900px;
-  font-family: 'Bebas Neue';
-  top: 178px;
-  left: 500px;
-  padding: 20px 15px;
-  border-top-left-radius: 39px;
-  border-top-right-radius: 39px ;
-  border-bottom-left-radius: 29px;
-  border-bottom-right-radius:2px ;
-  background: linear-gradient(#4568DC,#B06AB3); 
-  color: #f5f5f5;
-  font-size: 62px;
-  transform: translateY(30px);
-  opacity: 0;
-  visibility: hidden;
-  animation: fade 120s linear
-  forwards;
-  text-decoration: none;
-
-}
-
-.notification p {
-  color: #000;
-}
-
-
-.progress {
-  position: absolute;
-  left: 15px;
-  bottom: 7px;
-  width: 0;
-  height: 3px;
-  background-image:
-  linear-gradient(to right,#529bdb, #3250bf) ;
-  border-radius: 8px;
-  animation: progress 5s 
-  infinite;
- 
-}
-
-
-
-@keyframes fade {
-  5% {
-      opacity: 1;
-      visibility: visible  ;
-      transform: translateY(0px);
-  }
-  98% {
-      opacity: 1px;
-      transform: translateY(0px);
-  }
-  95% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 0;
-      transform: translateY();
-  }
-}
-
-@keyframes progress {
-  to {
-      margin-left: 0%;
-      width: 94%;
+  
+    <header id="r">
       
-  }
-}
+        <a href="#" class="logo">Isaque Almeida </a>
+        
+        <!-- Links mudanca de tela -->
+        <div class="u">
+         <ul id="ff">
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#sec2">Trabalhos</a></li>
+          <li><a href="#sec3">Contatos</a></li>
+         </ul>
+        </div>
 
-/* links sec3 */
-.gmail {
-    
-  font-size: 24px;
-  text-decoration:none;
-  font-family: 'Bebas Neue';
-  font-weight: normal;
-  color: #ffffff;
-  position: relative;
-  right:  453px;
-  top: 310px;
-  padding: left;
-}
+        
+      
 
-.gmail::after {
-  content:"";
-  color: #f6f5f9; 
-  display: block;
-  transition: .5s ease-out;
-     
-}
+          <div class="gra">
+            
+            
+            <a id="tt"  href="https://instabio.cc/4031820zRkmeQ">Me contrate</a>
+            
+           
+        </div>
 
-.gmail:hover::after{
-  content:"";
-  height: 2px;
-  width: 96%;
-  background-color: #f6f5f9;
-  display: block;
-  position: relative;
-  top: -9px;
-  left: -8px;
-}
-
-.insta {
-    
-  font-size: 24px;
-  text-decoration:none;
-  font-family: 'Bebas Neue';
-  font-weight: normal;
-  color: #ffffff;
-  position: relative;
-  right:  400px;
-  top: 310px;
-  padding: left;
-}
-
-.insta::after {
-  content:"";
-  color: #f6f5f9; 
-  display: block;
-  transition: .5s ease-out;
-     
-}
-
-.insta:hover::after{
-  content:"";
-  height: 2px;
-  width: 97%;
-  background-color: #f6f5f9;
-  display: block;
-  position: relative;
-  top: -9px;
-  left: -8px;
-}
+          
 
 
-.twi {
-    
-  font-size: 24px;
-  text-decoration:none;
-  font-family: 'Bebas Neue';
-  font-weight: normal;
-  color: #ffffff;
-  position: relative;
-  right:  345px;
-  top: 310px;
-  padding: left;
-}
+       
+    </header>
 
-.twi::after {
-  content:"";
-  color: #f6f5f9; 
-  display: block;
-  transition: .5s ease-out;
-     
-}
-
-.twi:hover::after{
-  content:"";
-  height: 2px;
-  width: 99%;
-  background-color: #f6f5f9;
-  display: block;
-  position: relative;
-  top: -9px;
-  left: -8px;
-}
-
-.wpp {
-    
-  font-size: 24px;
-  text-decoration:none;
-  font-family: 'Bebas Neue';
-  font-weight: normal;
-  color: #ffffff;
-  position: relative;
-  right:  289px;
-  top: 310px;
-  padding: left;
-}
-
-.wpp::after {
-  content:"";
-  color: #f6f5f9; 
-  display: block;
-  transition: .5s ease-out;
-     
-}
-
-.wpp:hover::after{
-  content:"";
-  height: 2px;
-  width: 97%;
-  background-color: #f6f5f9;
-  display: block;
-  position: relative;
-  top: -9px;
-  left: -6px;
-}
-
-.home {
-    
-  font-size: 24px;
-  text-decoration:none;
-  font-family: 'Bebas Neue';
-  font-weight: normal;
-  color: #ffffff;
-  position: relative;
-  right:  234px;
-  top: 310px;
-  padding: left;
-}
-
-.home::after {
-  content:"";
-  color: #f6f5f9; 
-  display: block;
-  transition: .5s ease-out;
-     
-}
-
-.home:hover::after{
-  content:"";
-  height: 2px;
-  width: 97%;
-  background-color: #f6f5f9;
-  display: block;
-  position: relative;
-  top: -9px;
-  left: -6px;
-}
-
-
-
-
-
-
-  .logo
-{
-  position: relative;
-  width: 698px;
-  height: 256px;
-  left: 141px;
-  top: 41px;
-  
-  font-family: 'Bebas Neue';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 65px;
-  line-height: 96px;
-  
-  background: linear-gradient(90deg, #4568DC 0%, #B06AB3 82.27%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  
-
-    
-    
-    
-
-}
-
-
-
-
-section
-
-{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-
-}
-section::before
-{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
    
-    z-index: 1000;
-}
 
-.foto{
-    position: absolute;
-    width: 535.98px;
-    height: 570.04px;
-    left: 328px;
-    top: 222px; 
-    background-image: url(download.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    border-radius: 192px;
+
+     
     
-}
-
-.pb{
-    position: absolute;
-    width: 403.93px;
-    height: 450.03px;
-    left: 385.54px;
-    top: 303px;
-    background-image: url(download.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    border-radius: 10px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray; /* IE */
-    
-}
- 
- 
 
 
 
-header ul
-{
-    display: flex;
-    font-size: 100px;
-  
-    align-items: center;
-    position: relative;
-    left: 12px;
-    top: 27px;
-}
-header ul li
-{
-    list-style: none;
-    margin-left: 20px;
-}
-header ul li a
-{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #f8f6f6;
-    font-size: 26px;
-    
-}
+    <!-- retangulos nos icones -->
+    <!-- <div class="ret"></div>
+
+    <div class="ret2">
+      <p>Seguir</p>
+    </div> -->
 
 
+    <!-- foto,foto pb e Fotografo -->
+    <!-- <div class="pb"></div> -->
 
+    <div class="foto"></div>
 
-
-header ul li a:hover
-{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #a8a7a7;
-    font-size: 26px;
+    <div class="p">
+      <p id="p">Fotógrafo. </p>
+    </div>
 
     
-}
 
-  /* botao subir e descer tela sec2 */
-  /* .cima{
-    position: relative;
-    bottom: 400px;
-    left: 800px;
-}
-.baixo{
-    position: relative;
-    top: 100px;
-    left: 1653px;
+    <div class="lo">
+      <p id="pppp"> Ensaios, eventos e fotos promocionais para o ramo empresarial
+      </p>
+    </div>
+
+    <!-- <div class="sa">
+      <p id="sab">Saber mais</p>
+    </div> -->
+
     
+
+    
+
    
-} */
-
-
-.y{
-  
-  position: absolute;
-width: 3000px;
-height: 535px;
-left: -11px;
-top: -24px;
-
-background:  #1d1d1d ;
-
-}
-
-
-
-.gra{
-  
-  position: absolute;
-width: 288px;
-height: 68px;
-left: 1279px;
-top: 686px;
-
-background: linear-gradient(90deg, #4568DC 0%, #B06AB3 100%);
-border-radius: 50px;
-}
-
-#tt{
-  position: relative;
-  left: 61px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 400;
-  font-size: 39px;
-  top: 12px;
-
-
-color: #FFFEFE;
-
-}
-
-.gra1{
-  
-  position: absolute;
-width: 300px;
-height: 68px;
-left: 800px;
-top: 200px;
-
-background: linear-gradient(90deg, #4568DC 0%, #B06AB3 100%);
-border-radius: 50px;
-}
-
-#tt1{
-  position: relative;
-  left: 66px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 400;
-  font-size: 39px;
-  top: 7px;
-
-
-color: #FFFEFE;
-
-}
-
-
-
-
-
-
-
-
-
-/* .ret{
-    width: 277px;
-    height: 80px;
-    background-color: #1E1E1E;
-    border-radius: 20px;
-    position: absolute;
-    left: 1545px;
-    top: 800px;
-}
-.ret2{
-    position: absolute;
-    width: 147px;
-    height: 33px;
-    left: 1443px;
-    top: 822px;
-    background: #ffffff;
-    border-radius: 15px;
-}
-.ret2 p{
-    position: absolute;
-    padding-left: 40px;
-    padding-top: 5px;
-    font-size: 19px;
-}
-.ico{
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    left: 1629px;
-    top: 824px;  
-}
-.ico2{
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    left: 1691px;
-    top: 824px;  
-}
    
-.ico3{
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    left: 1750px;
-    top: 824px;  
-} */
 
-.p{
-  position: absolute;
-  width: 530px;
-  height: 233px;
-  left: 1096px;
-  top: 238px;
-  
-  font-family: 'Bebas Neue';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 128px;
-  line-height: 154px;
-  
-  background: linear-gradient(90deg, #4568DC 0%, #B06AB3 82.27%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
- 
-}
-
-.lo{
-  position: absolute;
-  width: 438px;
-  height: 235px;
-  left: 1111px;
-  top: 451px;
-  
-  font-family: 'Bebas Neue';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 48px;
-  text-align: right;
-  
-  color: #FFFFFF;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
- .o{
-  position: absolute;
-  
-  left: 80px;
-  top: 26px;
-  font-family: 'Bebas Neue';
-  font-weight: 800;
-  font-size: 50px;
-  line-height: 152px;
-  color: #FFFFFF;
-  cursor: default;
-  
-
-
-
-background: linear-gradient(90deg, #4568DC 0%, #B06AB3 82.27%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-
-  
-  
-}
-
-
-
-
-
-.container {
-    position: relative;
-    width: 1160px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    margin: auto;
-    left: 26px;
-    top: 12px;
-  }
-  .container .box {
-    position: relative;
-    width: 275px;
-    height: 275px;
-    background: #000;
-    transition: 0.4s;
-    transform-style: preserve-3d;
-    overflow: hidden;
-    margin-right: 15px;
-    margin-top: 45px;
-    border-radius: 11px;
-  }
-  .container:hover .box {
-    transform: rotateY(5deg);
-    
-  }
-  .container .box:hover ~ .box {
-    transform: rotateY(-5deg);
-
-  }
-  .container .box:hover {
-    transform: rotateY(0deg) scale(1.29);
-    z-index: 1;
-    
-  }
-  .container .box .imgBx {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .container .box .imgBx:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
    
-    z-index: 1;
-    opacity: 0;
-    transition: 0.5s;
-    mix-blend-mode: multiply;
-  }
-  .container .box:hover .imgBx:before {
-    opacity: 1;
-  }
-  .container .box .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .container .box .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    padding: 20px;
-    align-items: flex-end;
-    box-sizing: border-box;
-  }
-  .container .box .content h2 {
-    color: #B06AB3;
-    transition: 0.5s;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    font-size: 29px;
-    transform: translateY(200px);
-    transition-delay: 0.3s;
+  
     
-  }
-  .container .box:hover .content h2 {
-    transform: translateY(0px);
-  }
-  .container .box .content p {
-    color: #fff;
-    transition: 0.5s;
-    font-size: 14px;
-    transform: translateY(200px);
-    transition-delay: 0.4s;
-  }
-  .container .box:hover .content p {
-    transform: translateY(0px);
-  }
- 
- 
+    
+
+    <section>
+
+
+    </section>
+
+    <div class="sec2">
+      <section id="sec2">
+
+        <div class="o">
+          <p id="o">Meus Trabalhos </p>
+        </div>
+
+        <div><a class="cima" href="#">
+          <img  src="up-arrow (2).png" width="50px" height="50px">
+      </a>
+      </div>
+
+      <div><a class="baixo" href="#sec3">
+        <img  src="up-arrow (2)23232.png" width="50px" height="50px">
+    </a>
+    </div>
 
 
 
-.chackbox-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: 40px;
-    position: relative;
-}
+       
 
-.chackbox {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 999;
-    transition: 400ms ease-in-out 0s;
-}
+        
+
+        <!-- imagens com efeito -->
+        <div class="container">
+          <div class="box">
+            <div class="imgBx">
+              <img src="6.PNG">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Ensaios Pessoais</h2>
+                <p>Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBx">
+              <img src="2.PNG">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Ensaios Pessoais</h2>
+                <p>Lorem ipsum dolor sit amet 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBx">
+              <img src="3.PNG">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Ensaios Pessoais</h2>
+                <p>Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBx">
+              <img src="4.PNG">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Ensaios Pessoais</h2>
+                <p>Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
 
 
+          <div class="box">
+            <div class="imgBx">
+              <img src="5.PNG">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Casamentos</h2>
+                <p>Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="imgBx">
+              <img src="8.PNG">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Aniversários</h2>
+                <p>Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="imgBx">
+              <img src="7.PNG">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Profissionais</h2>
+                <p>Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="imgBx">
+              <img src="1.PNG">
+            </div>
+            <div class="content">
+              <div>
+                <h2>Profissionais</h2>
+                <p>Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
 
 
+        </div>
 
-.chackbox .trace {
-    width: 50px;
-    height: 2px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    border-radius: 4px;
-    transition: 0.5s ease-in-out;
+        
+    </div>
+
+    <div class="sec3">
+      <section id="sec3">
+        <div class="pp">
+        <p>Estou disponivel para trabalhos, fale comigo</p>
+      </div>
+
+      <div class="lala"></div>
+
+      <div><a class="gmail" href="#">WhatsApp</a></div>
+        <div><a class="insta" href="#">Instagram</a></div>
+          <div><a class="twi" href="#">Linkedin</a></div>
+            <div><a class="wpp" href="#">facebook</a></div>
+            <div><a class="home" href="#">Página inicial</a></div>
+
+
+            <div><a class="home" href="#">
+              <img  src="level-up.png" width="100px" height="100px">
+          </a>
+          </div>
+
+
+    
+      
+
+
+        <div class="y">  
+          
+    <!-- <div class="notification">
+      <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus </p1>
+      
+      <span class="progress"></span>
+  </div>
+  
+      </div> -->
+
+      <div class="gra1">
+            
+            
+        <a id="tt1"  href="https://instabio.cc/4031820zRkmeQ">Me contrate</a>
+        
+       
+    </div>
+    
+
+    
+        
+      </section>
+    </div>
+
+    
+
    
-}
 
-.chackbox .trace:nth-child(1) {
-    top: 26px;
-    transform: rotate(0);
-}
+    
 
-.chackbox .trace:nth-child(2) {
-    top: 46px;
-    transform: rotate(0);
-}
+    <!-- menu -->
+    <div class="menu">
+      <div class="chackbox-container">
+          <div class="chackbox-wrraper">
+              <input type="checkbox" id="toogle">
+              <label class="chackbox" for="toogle">
+                <div class="trace"></div>
+                <div class="trace"></div>
+                <div class="trace"></div>  
+              </label>
+              <div class="menu"></div>
+              <nav class="menu-itens">
+                  <ul>
+                      <li>
+                          <a href="#">Alguma coisa</a>
+                      </li>
+                      <li>
+                          <a href="#">Alguma coisa</a>
+                      </li>
+                      <li>
+                          <a href="#">Alguma coisa</a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
 
-.chackbox .trace:nth-child(3) {
-    top: 66px;
-    transform: rotate(0);
-}
+      </div>
 
-#toogle {
-    display: none;
-}
 
-.menu {
-    position: absolute;
-    top: 28px;
-    right: 30px;
-    background-color: transparent;
-    height: 4px;
-    width: 10px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 0px 0px #222222;
-    z-index: 1;
-    transition: 400ms ease-in-out 0s;
-}
+   
+     
+      
 
-.menu-itens {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    opacity: 0;
-    visibility: hidden;
-    transition: 400ms ease-in-out 0s;
-}
+</body>
+</html>    
 
-.menu-itens ul {
-    list-style-type: none;
-}
-
-.menu-itens ul li a {
-    margin: 10px;
-    color: rgba(255, 255, 255, 0.863);
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 40px;
-}
-
-#toogle:checked+.chackbox .trace:nth-child(1) {
-    transform: rotate(45deg);
-    top: 47px;
-}
-
-#toogle:checked+.chackbox .trace:nth-child(2) {
-    transform: translate(-100px);
-    width: 30px;
-    visibility: hidden;
-    opacity: 0;
-}
-
-#toogle:checked+.chackbox .trace:nth-child(3) {
-    transform: rotate(-45deg);
-    top: 48px;
-}
-
-#toogle:checked+.chackbox {
-    background-color: #474646;
-}
-
-#toogle:checked~.menu {
-    box-shadow: 0px 0px 0px 100vmax #474646;
-    z-index: 1;
-}
-
-#toogle:checked~.menu-itens {
-    visibility: visible;
-    opacity: 1;
-}
+        
