@@ -49,15 +49,15 @@ header
 
 .cima img{
   position: relative;
-  left: 1496px;
+  left: 1439px;
   top: -250px;
   
 }
 
 .baixo img{
   position: relative;
-  left: 251px;
-  top: 325px;
+  left: 194px;
+  top: 321px;
   
 }
 
@@ -65,6 +65,7 @@ header
     font-size: 45px;
     color: #FFFFFF;
     background: linear-gradient(#4568DC,#B06AB3); 
+    
     
 }
 
@@ -83,19 +84,37 @@ header
   font-family: 'Bebas Neue';
   font-style: normal;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 34px;
   line-height: 58px;
-  left: 250px;
-  top: 620px;
+  left: 172px;
+  top: 642px;
   color: #FFFFFF;
   cursor: default;
  
   }
 
+  .dev{
+    position: absolute;
+    width: 771px;
+    height: 235px;
+    left: 924px;
+  top: 848px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    }
+
+   
+    
+
+    
+
 header #ff{
     font-size: 18px;
     position: relative;
-    left: 599px;
+    left: 799px;
     display: flex;
     justify-content: space-between; 
     z-index: 100000;
@@ -103,10 +122,10 @@ header #ff{
 }
 
 .lala{
-  width: 28%;
-  height: 28%;
+  width: 25%;
+  height: 29%;
   position: absolute;
-  top: 600px;
+  top: 573px;
   right:  200px;
   background-image: url(logo.png);
   background-repeat: no-repeat;
@@ -115,90 +134,43 @@ header #ff{
   
 }
 
-
-.notification {
-  position: relative;
-  display: inline-block;
-  max-width: 900px;
-  font-family: 'Bebas Neue';
-  top: 178px;
-  left: 500px;
-  padding: 20px 15px;
-  border-top-left-radius: 39px;
-  border-top-right-radius: 39px ;
-  border-bottom-left-radius: 29px;
-  border-bottom-right-radius:2px ;
-  background: linear-gradient(#4568DC,#B06AB3); 
-  color: #f5f5f5;
-  font-size: 62px;
-  transform: translateY(30px);
-  opacity: 0;
-  visibility: hidden;
-  animation: fade 120s linear
-  forwards;
-  text-decoration: none;
-
-}
-
-.notification p {
-  color: #000;
-}
-
-
-.progress {
+h1 {
   position: absolute;
-  left: 15px;
-  bottom: 7px;
-  width: 0;
-  height: 3px;
-  background-image:
-  linear-gradient(to right,#529bdb, #3250bf) ;
-  border-radius: 8px;
-  animation: progress 5s 
-  infinite;
- 
+  font-size: 44px;
+  top: 11%;
+  transform: translateY(-50%);
+  left: -14px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: rgb(228, 228, 228);
+  text-align: center;
+  font-family: 'Bebas Neue';
+  background: linear-gradient( #4568DC 0%, #B06AB3 90.27%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
 }
 
 
 
-@keyframes fade {
-  5% {
-      opacity: 1;
-      visibility: visible  ;
-      transform: translateY(0px);
-  }
-  98% {
-      opacity: 1px;
-      transform: translateY(0px);
-  }
-  95% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 0;
-      transform: translateY();
-  }
-}
 
-@keyframes progress {
-  to {
-      margin-left: 0%;
-      width: 94%;
-      
-  }
-}
+
 
 /* links sec3 */
 .gmail {
     
-  font-size: 24px;
+  font-size: 22px;
   text-decoration:none;
   font-family: 'Bebas Neue';
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  453px;
-  top: 310px;
+  right:  515px;
+  top: 298px;
   padding: left;
 }
 
@@ -223,14 +195,14 @@ header #ff{
 
 .insta {
     
-  font-size: 24px;
+  font-size: 22px;
   text-decoration:none;
   font-family: 'Bebas Neue';
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  400px;
-  top: 310px;
+  right:  460px;
+  top: 298px;
   padding: left;
 }
 
@@ -256,14 +228,14 @@ header #ff{
 
 .twi {
     
-  font-size: 24px;
+  font-size: 22px;
   text-decoration:none;
   font-family: 'Bebas Neue';
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  345px;
-  top: 310px;
+  right:  399px;
+  top: 298px;
   padding: left;
 }
 
@@ -288,14 +260,14 @@ header #ff{
 
 .wpp {
     
-  font-size: 24px;
+  font-size: 22px;
   text-decoration:none;
   font-family: 'Bebas Neue';
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  289px;
-  top: 310px;
+  right:  339px;
+  top: 298px;
   padding: left;
 }
 
@@ -320,14 +292,14 @@ header #ff{
 
 .home {
     
-  font-size: 24px;
+  font-size: 22px;
   text-decoration:none;
   font-family: 'Bebas Neue';
   font-weight: normal;
   color: #ffffff;
   position: relative;
-  right:  234px;
-  top: 310px;
+  right:  271px;
+  top: 298px;
   padding: left;
 }
 
@@ -358,8 +330,8 @@ header #ff{
   .logo
 {
   position: relative;
-  width: 698px;
-  height: 256px;
+  width: 513px;
+  height: 379px;
   left: 141px;
   top: 41px;
   
@@ -507,6 +479,78 @@ top: -24px;
 background:  #1d1d1d ;
 
 }
+
+.f{
+  
+  position: relative  ;
+  width: 1px;
+  height: 1600px;
+  left: 960px;
+  top: 55px;
+  
+  background: #D9D9D9;
+  transform: rotate(-89.95deg);
+
+}
+
+  /* Botao sec3 */
+
+.btn {
+  display: inline-block;
+  color: #ffffff;
+  padding: 32px;
+  position: relative;
+  letter-spacing: 1px;
+  left: -344px;
+  top: -220px;
+}
+.btn__circle, .btn__text, .btn__white-circle {
+  position: absolute;
+}
+.btn__circle {
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 100%;
+  width: 100%;
+  box-shadow: 0 0 1px 1px #fff;
+  transition: 0.3s linear;
+}
+.btn__white-circle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 59px;
+  height: 59px;
+  border-radius: 100%;
+  background: linear-gradient(#4568DC,#B06AB3); 
+
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+.btn__white-circle svg {
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.btn__text {
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  z-index: 2;
+  padding: 24px 8px;
+  transition: 0.3s linear;
+}
+.btn:hover .btn__circle {
+  transform: scale(0);
+}
+.btn:hover .btn__white-circle {
+  transform: translate(-50%, -50%) scale(1);
+}
+.btn:hover .btn__text {
+  transform: translate(40px, -50%);
+}
+
 
 
 
@@ -703,7 +747,7 @@ background-clip: text;
     transform-style: preserve-3d;
     perspective: 1000px;
     margin: auto;
-    left: 26px;
+    left: -32px;
     top: 12px;
   }
   .container .box {
