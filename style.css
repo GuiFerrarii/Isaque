@@ -14,6 +14,8 @@ body
     min-height: 100vh;
     
 }
+/* barra scroll  */
+
 ::-webkit-scrollbar {
   width: 9px;
 }
@@ -46,7 +48,7 @@ header
     color: #786496;
     
 }
-
+/* 
 .cima img{
   position: relative;
   left: 1439px;
@@ -59,7 +61,7 @@ header
   left: 194px;
   top: 321px;
   
-}
+} */
 
 #sec3{
     font-size: 45px;
@@ -76,6 +78,9 @@ header
   
 }
 
+
+
+/* estou disponivel */
 .pp{
   position: absolute;
   width: 771px;
@@ -93,19 +98,24 @@ header
  
   }
 
+  
+
+/* @gui @ian   */
   .dev{
     position: absolute;
     width: 771px;
     height: 235px;
-    left: 924px;
-  top: 848px;
+    left: 834px;
+    top: 895px;
     font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 23px;
+    color: #fcfcfc;
     }
 
+/* agende seu horario     */
     .h{
       position: absolute;
       width: 505px;
@@ -140,7 +150,7 @@ header #ff{
 }
 
 
-
+/* logo isaque */
 .lala{
   width: 20%;
   height: 20%;
@@ -154,9 +164,10 @@ header #ff{
   
 }
 
+/* texto mudando */
 h1 {
   position: absolute;
-  font-size: 44px;
+  font-size: 56px;
   top: 11%;
   transform: translateY(-50%);
   left: -700px;
@@ -346,7 +357,7 @@ background-clip: text;
 
 
 
-
+/* Isaque Almeida sec1 */
   .logo
 {
   position: relative;
@@ -400,6 +411,7 @@ section::before
     z-index: 1000;
 }
 
+/* foto isaque */
 .foto{
     position: absolute;
     width: 535.98px;
@@ -410,24 +422,26 @@ section::before
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    border-radius: 192px;
+    border-radius: 170px;
     
 }
 
 .pb{
-    position: absolute;
-    width: 403.93px;
-    height: 450.03px;
-    left: 385.54px;
-    top: 303px;
-    background-image: url(download.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    border-radius: 10px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray; /* IE */
+  position: absolute;
+  width: 535.98px;
+  height: 570.04px;
+  left: 230px;
+  top: 270px; 
+  background-image: url(download.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  border-radius: 170px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE */
+  border-radius: 192px;
+
     
 }
  
@@ -513,6 +527,7 @@ background:  #1d1d1d ;
 
 }
 
+
   /* Botao sec3 */
 
 .btn {
@@ -521,7 +536,7 @@ background:  #1d1d1d ;
   padding: 32px;
   position: relative;
   letter-spacing: 1px;
-  left: -310px;
+  left: -330px;
   top: -141px;
   font-size: 29px;
 }
@@ -768,8 +783,8 @@ background-clip: text;
     transform-style: preserve-3d;
     perspective: 1000px;
     margin: auto;
-    left: -32px;
-    top: 12px;
+    left: 12px;
+    top: 1px;
   }
   .container .box {
     position: relative;
