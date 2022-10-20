@@ -106,6 +106,24 @@ header
     line-height: 23px;
     }
 
+    .h{
+      position: absolute;
+      width: 505px;
+      height: 360px;
+      left: 732px;
+      top: 120px;
+      
+      font-family: 'Bebas Neue';
+   
+      font-weight: 400;
+      font-size: 75px;
+      line-height: 120px;
+
+color: #FFFFFF;
+      
+      }
+  
+
    
     
 
@@ -121,11 +139,13 @@ header #ff{
     top: 57px;
 }
 
+
+
 .lala{
-  width: 25%;
-  height: 29%;
+  width: 20%;
+  height: 20%;
   position: absolute;
-  top: 566px;
+  top: 633px;
   right:  200px;
   background-image: url(logo.png);
   background-repeat: no-repeat;
@@ -139,7 +159,7 @@ h1 {
   font-size: 44px;
   top: 11%;
   transform: translateY(-50%);
-  left: -14px;
+  left: -700px;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -501,8 +521,9 @@ background:  #1d1d1d ;
   padding: 32px;
   position: relative;
   letter-spacing: 1px;
-  left: -344px;
-  top: -220px;
+  left: -310px;
+  top: -141px;
+  font-size: 29px;
 }
 .btn__circle, .btn__text, .btn__white-circle {
   position: absolute;
